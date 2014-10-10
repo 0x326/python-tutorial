@@ -93,6 +93,14 @@ Python functions are defined with the :python:`def` keyword, and
 instead of using curly braces to show the scope of a block, Python
 uses indentation.
 
+.. code-block:: python
+
+	>>> def multiply():
+		return 300*50
+
+Many Python users use 4 spaces to denote an indentation level, but a
+tab works just as well.
+
 ==============
 Function Types
 ==============
