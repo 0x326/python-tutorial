@@ -52,7 +52,7 @@ Python uses the concept of **Duck Typing**, coming from the `Duck Test
 
 Basically, this means *"If it looks like a duck, swims like a duck,
 and quacks like a duck, then it probably is a duck."* Python's
-variables have no types assigned to them. Instead, python stores types
+variables have no types assigned to them. Instead, Python stores types
 in the *values* stored at each variable.
 
 .. code-block:: python
