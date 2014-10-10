@@ -2,8 +2,9 @@
 Introduction to Python
 ======================
 
-:date: 2014-10-15
-:author: Nate Mara
+Nate Mara
+
+2014-10-15
 
 ===========
 A Few Words
