@@ -18,6 +18,18 @@ programmer to use many popular programming paradigms with ease:
 	- Purely functional
 	- Imperative
 
+=================
+Let's Get Sarted!
+=================
+
+We're going to use some examples that I've prepared.
+
+.. code-block:: bash
+
+	$ git clone https://github.com/natemara/python-tutorial
+	$ cd python-intro/examples
+	$ python3.4
+
 ============
 Hello World!
 ============
