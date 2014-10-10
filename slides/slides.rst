@@ -1,6 +1,9 @@
 .. role:: python(code)
    :language: python
 
+.. role:: java(code)
+   :language: java
+
 ======================
 Introduction to Python
 ======================
@@ -139,7 +142,8 @@ Conditional statements are largely the same as in Java or C++, with
 the exception of not requiring parenthesis around the condition, and
 having an explicit *else if* statement called :python:`elif`. Just
 like functions, the bodies of conditional statements are required to
-be indented.
+be indented. Also, instead of :java:`||` or :java:`&&`, Python uses
+the words :python:`or`, and :python:`and`.
 
 .. code-block:: python
 
