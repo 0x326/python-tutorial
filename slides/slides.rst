@@ -149,3 +149,35 @@ be indented.
 		print('It is still pretty big.')
 	else:
 		print('Alright, it is a small number.')
+
+=====
+Lists
+=====
+
+Python default colleciton class is the :python:`list`. In contrast to
+the array from C-like languages, a list is dynamic, and can hold
+values of any type.
+
+.. code-block:: python
+
+	>>> values = ['Hello', 130, object]
+	>>> values.append(50000)
+	>>> print(values)
+	['Hello', 130, <class 'object'>, 50000]
+
+=====
+Loops
+=====
+
+Since :python:`for` loops are generally used to iterate through the
+contents of some collection, Python's :python:`for` loop has this
+behavior by default.
+
+.. code-block:: python
+
+	>>> for i in values:
+		print(i)
+	Hello
+	130
+	<class 'object'>
+	50000
