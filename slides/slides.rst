@@ -181,3 +181,14 @@ behavior by default.
 	130
 	<class 'object'>
 	50000
+
+Important to mention is that the variable created by the loop, in this
+case :python:`i`, is a *reference* to the location in the collection,
+so you can do this...
+
+.. code-block:: python
+
+	>>> for i in values:
+		i = 0
+	>>> print(values)
+	[0, 0, 0, 0]
