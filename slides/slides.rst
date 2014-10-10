@@ -85,9 +85,17 @@ in the *values* stored at each variable. We can use the
 	>>> print(type(x))
 	<class 'float'>
 
-=========
-Functions
-=========
+==================
+Defining Functions
+==================
+
+Python functions are defined with the :python:`def` keyword, and
+instead of using curly braces to show the scope of a block, Python
+uses indentation.
+
+==============
+Function Types
+==============
 
 Just as variables in Python have no defined type, functions and their
 arguments can also be of any type. It is important to note that in
@@ -108,7 +116,6 @@ the type :python:`<class 'function'>`.
 	30
 	>>> type(some_value)
 	<class 'int'>
-	
 	>>> some_value = my_great_function('Hello ', 'World!')
 	>>> print(some_value)
 	Hello World!
