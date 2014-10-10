@@ -192,3 +192,23 @@ so you can do this...
 		i = 0
 	>>> print(values)
 	[0, 0, 0, 0]
+
+===========
+While Loops
+===========
+
+:python:`while` loops are virtually identical to those in C-like
+languages, with the exception of the lack of perenthesis around the
+condition, and the indentation denoting the block.
+
+.. code-block:: python
+
+	>>> i = 0
+	>>> while i < 10:
+		print(i)
+		i += 2
+	0
+	2
+	4
+	6
+	8
