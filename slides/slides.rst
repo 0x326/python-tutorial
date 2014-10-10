@@ -165,12 +165,12 @@ values of any type.
 	>>> print(values)
 	['Hello', 130, <class 'object'>, 50000]
 
-=====
-Loops
-=====
+=========
+For Loops
+=========
 
 Since :python:`for` loops are generally used to iterate through the
-contents of some collection, Python's :python:`for` loop has this
+contents of a collection, Python's :python:`for` loop has this
 behavior by default.
 
 .. code-block:: python
