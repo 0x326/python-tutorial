@@ -1,3 +1,6 @@
+.. role:: python(code)
+   :language: python
+
 ======================
 Introduction to Python
 ======================
@@ -65,7 +68,8 @@ Python uses the concept of **Duck Typing**, coming from the `Duck Test
 Basically, this means *"If it looks like a duck, swims like a duck,
 and quacks like a duck, then it probably is a duck."* Python's
 variables have no types assigned to them. Instead, Python stores types
-in the *values* stored at each variable.
+in the *values* stored at each variable. We can use the
+:python:`type()` function to get the type of any value.
 
 .. code-block:: python
 
@@ -80,3 +84,34 @@ in the *values* stored at each variable.
 	>>> x += 1.5
 	>>> print(type(x))
 	<class 'float'>
+
+=========
+Functions
+=========
+
+Just as variables in Python have no defined type, functions and their
+arguments can also be of any type. It is important to note that in
+Python, functions are no different from variables, except they have
+the type :python:`<class 'function'>`.
+
+.. code-block:: python
+
+	>>> def my_great_function(x, y):
+		print(x + y)
+		return x + y
+
+	>>> type(my_great_function)
+	<class 'function'>
+
+	>>> some_value = my_great_function(10, 20)
+	>>> print(some_value)
+	30
+	>>> type(some_value)
+	<class 'int'>
+	
+	>>> some_value = my_great_function('Hello ', 'World!')
+	>>> print(some_value)
+	Hello World!
+
+	>>> type(some_value)
+	<class 'str'>
