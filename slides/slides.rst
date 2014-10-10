@@ -254,3 +254,14 @@ building a list.
 .. code-block:: python
 
 	>>> values = [i for i in range(0, 100) if i % 2 == 0]
+
+===================
+Putting it Together
+===================
+
+As an exercise, let's write a function that that counts the number of
+vowels that occur in a string using a list comprehension. Things to
+know:
+
+	- the :python:`in` keyword
+	- the :python:`sum` function
