@@ -238,3 +238,15 @@ a :python:`key`.
 	three
 	>>> print(values['red'])
 	[1, 3, 4]
+
+===================
+List Comprehensions
+===================
+
+One of the most powerful aspects of the Python language is the concept
+of list comprehensions. A list comprehension is like a formula for
+building a list.
+
+.. code-block:: python
+
+	>>> values = [i for i in range(0, 100) if i % 2 == 0]
