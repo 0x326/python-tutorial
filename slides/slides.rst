@@ -130,3 +130,22 @@ the type :python:`<class 'function'>`.
 
 	>>> type(some_value)
 	<class 'str'>
+
+============
+Conditionals
+============
+
+Conditional statements are largely the same as in Java or C++, with
+the exception of not requiring parenthesis around the condition, and
+having an explicit *else if* statement called :python:`elif`. Just
+like functions, the bodies of conditional statements are required to
+be indented.
+
+.. code-block:: python
+
+	>>> if 300 * 50 >= 100:
+		print('That is a big number!')
+	elif 20 < 10:
+		print('It is still pretty big.')
+	else:
+		print('Alright, it is a small number.')
