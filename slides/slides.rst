@@ -212,3 +212,29 @@ condition, and the indentation denoting the block.
 	4
 	6
 	8
+
+==========
+Dictionary
+==========
+
+A dictionary, or :python:`dict` is a type of collection where each
+element is referred to not by a numerical index between :python:`0`
+and :python:`n`, but can be referred to by any immutable value, called
+a :python:`key`.
+
+
+.. code-block:: python
+
+	>>> values = {
+		'green': 1,
+		'red': [1, 3, 4],
+		3: 'three',
+		4: 'four',
+		'blue': 5.0
+	}
+	>>> print(values['green'])
+	1
+	>>> print(values[3])
+	three
+	>>> print(values['red'])
+	[1, 3, 4]
