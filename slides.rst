@@ -22,7 +22,22 @@ programmer to use many popular programming paradigms with ease:
 Hello World!
 ============
 
-This is very easy in python:
+----
+Java
+----
+
+
+.. code-block:: java
+
+	public class HelloWorld {
+		public static void main(String[] args) {
+			System.out.println("Hello, World!");
+		}
+	}
+
+------
+Python
+------
 
 .. code-block:: python
 
