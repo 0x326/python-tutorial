@@ -291,3 +291,25 @@ Pythonic
 
 	>>> def count_vowels(word):
 		return sum([1 for i in word if i in 'aeiouAEIOU'])
+
+=======
+Classes
+=======
+
+Python classes are similar to classes in other languages, except all
+attributes are public by default. There are some slightly different
+semantics:
+
+	- Instance methods must have :python:`self` as the first parameter
+	- Instance variable must be referenced as :python:`self.*`
+	- The constructor is called :python:`__init__()`
+	- :java:`toString()` is replaced with :python:`__str__()`
+
+.. code-block:: python
+
+	>>> class Fraction():
+		def __init__(self, numerator, denominator):
+			self.numerator = numerator
+			self.denominator = denominator
+		def __str__(self):
+			return '{:.2f}/{:.2f}'.format(self.numerator, self.denominator)
