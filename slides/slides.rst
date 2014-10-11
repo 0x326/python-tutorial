@@ -265,3 +265,29 @@ know:
 
 	- the :python:`in` keyword
 	- the :python:`sum` function
+
+========
+Solution
+========
+
+---------
+Iterative
+---------
+
+.. code-block:: python
+
+	>>> def count_vowels(word):
+		total = 0
+		for letter in word:
+			if letter in 'aeiouAEIOU':
+				total += 1
+		return total
+
+--------
+Pythonic
+--------
+
+.. code-block:: python
+
+	>>> def count_vowels(word):
+		return sum([1 for i in word if i in 'aeiouAEIOU'])
