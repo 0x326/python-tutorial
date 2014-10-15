@@ -313,3 +313,15 @@ semantics:
 			self.denominator = denominator
 		def __str__(self):
 			return '{:.2f}/{:.2f}'.format(self.numerator, self.denominator)
+
+=================
+Source Code Files
+=================
+
+	- :python:`.py` extension
+	- exactly the same syntax as the interactive mode
+	- :python:`hello.py`:
+
+.. code-block:: python
+
+	print('Hello World!')
