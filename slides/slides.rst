@@ -147,9 +147,10 @@ the words :python:`or`, and :python:`and`.
 
 .. code-block:: python
 
-	>>> if 300 * 50 >= 100:
+	>>> x = 100
+	>>> if x >= 10000:
 		print('That is a big number!')
-	elif 20 < 10:
+	elif x > 200 or x > 100:
 		print('It is still pretty big.')
 	else:
 		print('Alright, it is a small number.')
