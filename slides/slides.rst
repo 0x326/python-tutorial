@@ -33,7 +33,7 @@ We're going to use some examples that I've prepared.
 .. code-block:: bash
 
 	$ git clone https://github.com/natemara/python-tutorial
-	$ cd python-intro/examples
+	$ cd python-tutorial
 	$ python3.4
 
 ============
